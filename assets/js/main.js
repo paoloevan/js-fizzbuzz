@@ -29,7 +29,9 @@ for (i = 1; i < 101; i++) {
         fizzBuzzEl.append(divEl);
     }
     // riconosco i multipli di 3
-    else if (Number.isInteger(i / 3) == true) {
+    //else if (Number.isInteger(i / 3) == true)
+    // metodo con reminder (%)
+    else if (i % 3 == 0) {
         console.log('Fizz');
         // selezione elemento della DOM 
         let fizzBuzzEl = document.querySelector('.fizz_buzz');
