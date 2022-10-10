@@ -1,3 +1,19 @@
 body {
-    background-color: aquamarine;
+    background-color:steelblue;
+}
+.fizz_buzz > div {
+    padding: 1rem 0;
+    font-weight: bolder;
+    color: white;
+}
+.container .fizz_buzz .fizzbuzz_style {
+    color: red;
+}
+
+.container .fizz_buzz .fizz_style {
+    color: rgb(0, 12, 176);
+}
+
+.container .fizz_buzz .buzz_style {
+
 }

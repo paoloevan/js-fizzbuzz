@@ -23,6 +23,8 @@ for (i = 1; i < 101; i++) {
         let divEl = document.createElement('div');
         // appendo al div il numero / stringa 
         divEl.append('FizzBuzz');
+        // aggiungo la classe al div
+        divEl.classList.add('fizzbuzz_style', 'col-1');
         // appendo il div al container
         fizzBuzzEl.append(divEl);
     }
@@ -35,6 +37,8 @@ for (i = 1; i < 101; i++) {
         let divEl = document.createElement('div');
         // appendo al div il numero / stringa 
         divEl.append('Fizz');
+        // aggiungo la classe al div
+        divEl.classList.add('fizz_style', 'col-1');
         // appendo il div al container
         fizzBuzzEl.append(divEl);
     }
@@ -47,6 +51,8 @@ for (i = 1; i < 101; i++) {
         let divEl = document.createElement('div');
         // appendo al div il numero / stringa 
         divEl.append('Buzz');
+        // aggiungo la classe al div
+        divEl.classList.add('buzz_style', 'col-1');
         // appendo il div al container
         fizzBuzzEl.append(divEl);
     }
@@ -58,6 +64,8 @@ for (i = 1; i < 101; i++) {
         let divEl = document.createElement('div');
         // appendo al div il numero / stringa 
         divEl.append(i);
+        // aggiungo la classe al div
+        divEl.classList.add('col-1');
         // appendo il div al container
         fizzBuzzEl.append(divEl);
     }
