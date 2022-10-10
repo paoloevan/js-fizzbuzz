@@ -11,22 +11,55 @@ if
 for
 */
 
+
 // stampa numeri da 1 a 100
 for (i = 1; i < 101; i++) {
     // riconosco i multipli di 3 e 5
     if ((Number.isInteger(i / 3) == true) && (Number.isInteger(i / 5) == true)) {
         console.log('FizzBuzz');
+        // selezione elemento della DOM 
+        let fizzBuzzEl = document.querySelector('.fizz_buzz');
+        // Creo nodo div
+        let divEl = document.createElement('div');
+        // appendo al div il numero / stringa 
+        divEl.append('FizzBuzz');
+        // appendo il div al container
+        fizzBuzzEl.append(divEl);
     }
     // riconosco i multipli di 3
     else if (Number.isInteger(i / 3) == true) {
         console.log('Fizz');
+        // selezione elemento della DOM 
+        let fizzBuzzEl = document.querySelector('.fizz_buzz');
+        // Creo nodo div
+        let divEl = document.createElement('div');
+        // appendo al div il numero / stringa 
+        divEl.append('Fizz');
+        // appendo il div al container
+        fizzBuzzEl.append(divEl);
     }
     // riconosco i multipli di 5
     else if (Number.isInteger(i / 5) == true) {
         console.log('Buzz');
+        // selezione elemento della DOM 
+        let fizzBuzzEl = document.querySelector('.fizz_buzz');
+        // Creo nodo div
+        let divEl = document.createElement('div');
+        // appendo al div il numero / stringa 
+        divEl.append('Buzz');
+        // appendo il div al container
+        fizzBuzzEl.append(divEl);
     }
     else {
         console.log(i);
+        // selezione elemento della DOM 
+        let fizzBuzzEl = document.querySelector('.fizz_buzz');
+        // Creo nodo div
+        let divEl = document.createElement('div');
+        // appendo al div il numero / stringa 
+        divEl.append(i);
+        // appendo il div al container
+        fizzBuzzEl.append(divEl);
     }
 }
 
