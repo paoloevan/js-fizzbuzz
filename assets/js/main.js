@@ -73,6 +73,26 @@ for (i = 1; i < 101; i++) {
     }
 }
 
+        /*
+        console.log(i);
+        // selezione elemento della DOM 
+        let fizzBuzzEl = document.querySelector('.fizz_buzz_card');
+        // Creo nodo div
+        let divEl = document.createElement('div');
+        // aggiungo la classe al div
+        divEl.classList.add('col-1', 'fizz_buzz');
+        // appendo il div al container
+        fizzBuzzEl.append(divEl);
+        // selezione elemento della DOM 
+        let fizzBuzzElBottom = document.querySelector('.fizz_buzz');
+        // Creo nodo div
+        let divElBottom = document.createElement('div');
+        // appendo al div il numero / stringa 
+        divElBottom.append(i);
+        // aggiungo la classe al div
+        divElBottom.classList.add('normal_number');
+        // appendo il div al container
+        fizzBuzzElBottom.append(divElBottom);*/
 
 
 
